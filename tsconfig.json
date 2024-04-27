@@ -7,12 +7,13 @@
     "emitDecoratorMetadata": true,
     "esModuleInterop": false,
     "experimentalDecorators": true,
-    "lib": ["ES2020"],
+    "lib": ["DOM", "ES2020"],
     "moduleResolution": "Node",
     "preserveConstEnums": true,
     "skipLibCheck": true,
     "strictNullChecks": true,
-    "target": "ES2019"
+    "target": "ES2019",
+    "sourceMap": true
   },
   "include": ["**/*.ts"]
 }
